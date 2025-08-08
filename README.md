@@ -49,24 +49,19 @@ Horizontal bar chart showing the organisations with the highest crude detention 
 
 Outlier Detection
 Outliers are flagged using two complementary methods:
-
-Percentile Method
+- Percentile Method
 
 High Outliers – Above 95th percentile
 
 Low Outliers – Below 5th percentile
 
-Median-Based Method
+- Median-Based Method
 
 Compares each organisation’s crude rate to the median (P50).
 
 Identifies organisations significantly above or below the median for additional context on data skewness.
 
-These dual checks ensure robust detection of both extreme values and unusual deviations from the central trend.
-
-
-
-Explore the pivot tables for deeper analysis.
+## Explore the pivot tables for deeper analysis.
 
 Check Outlier Flag fields to identify organisations outside expected ranges.
 
